@@ -41,7 +41,8 @@ Users should be able to:
 - Download assets, Install Vite & TailwindCss, Initialize git, README.md, Prepare project, ...
 - Create Home (mobile) based on `figma` file
   - HomePage, Layout, Header, Logo, Menu(Navigation, MobileMenu), Explore
-
+- Create Destination (mobile)
+  - DestinationPage, Slider
 
 ### Work Time
 
@@ -52,6 +53,7 @@ Users should be able to:
 - [React](https:react.dev)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer motion](https//framer.com/motion)
+- [Swiperjs](https://swiperjs.com/react)
 
 ### What I learned
 

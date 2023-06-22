@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const navVariants = {
   hidden: {
     x: "15.875rem",
-    "backdrop-filter": "blur(40px) opacity(0)",
+    backdropFilter: "blur(40px) opacity(0)",
     opacity: 0,
     transition: {
       duration: 0.4,
@@ -18,7 +18,7 @@ const navVariants = {
   visible: {
     x: 0,
     opacity: 1,
-    "backdrop-filter": "blur(40px) opacity(1)",
+    backdropFilter: "blur(40px) opacity(1)",
     transition: {
       duration: 0.4,
       type: "tween",
@@ -61,7 +61,7 @@ const MobileMenu = ({ items, handleCloseMenu }) => {
       initial="hidden"
       animate="visible"
       exit="hidden"
-      className="fixed right-0 top-0 flex h-full w-[15.875rem] flex-col gap-y-60 bg-white bg-opacity-5 pl-32 pt-34"
+      className="fixed right-0 top-0 z-50 flex h-full w-[15.875rem] flex-col gap-y-60 bg-white bg-opacity-5 pl-32 pt-34"
     >
       <button
         aria-label="close menu"
@@ -74,7 +74,11 @@ const MobileMenu = ({ items, handleCloseMenu }) => {
       <motion.ul variants={listVariants} className="flex flex-col gap-y-20">
         {items.map((item) => {
           return (
-            <motion.li variants={itemVariants} key={item.number}>
+            <motion.li
+              variants={itemVariants}
+              key={item.number}
+              onClick={handleCloseMenu}
+            >
               <NavLink
                 end={item.text === "Home" ? true : false}
                 to={item.href}

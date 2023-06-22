@@ -1,7 +1,13 @@
-import Layout from "../components/Layout/Layout";
+import Pattern from "../components/pages/Pattern";
+import Title from "../components/pages/Title";
 
 const Technology = () => {
-  return <Layout></Layout>;
+  return (
+    <>
+      <Pattern pattern="bg-mobile-technology-pattern" />
+      <Title number="03" title="Space launch 101" />
+    </>
+  );
 };
 
 export default Technology;

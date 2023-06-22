@@ -1,10 +1,13 @@
-import Layout from "../components/Layout/Layout";
 import Explore from "../components/home/explore/Explore";
+import Pattern from "../components/pages/Pattern";
 
 const Home = () => {
-  return <Layout>
-    <Explore />
-  </Layout>;
+  return (
+    <>
+      <Pattern pattern="bg-mobile-home-pattern" />
+      <Explore />
+    </>
+  );
 };
 
 export default Home;

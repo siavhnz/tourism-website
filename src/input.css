@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    
+    .destination-pagination  .swiper-pagination-bullet-active {
+        color:#fff;
+        border-bottom-color: #fff;
+    }
+    
+    .crew-pagination  .swiper-pagination-bullet-active {
+        opacity: 1;
+    }
+}
