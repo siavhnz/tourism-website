@@ -531,6 +531,11 @@ video {
   opacity: 1;
 }
 
+.technology-pagination  .swiper-pagination-bullet-active {
+  background-color: #fff;
+  color: #0B0D17;
+}
+
 .visible {
   visibility: visible;
 }
@@ -563,12 +568,12 @@ video {
   top: 14rem;
 }
 
-.top-60 {
-  top: 15rem;
-}
-
 .top-72 {
   top: 18rem;
+}
+
+.top-60 {
+  top: 15rem;
 }
 
 .-z-50 {
@@ -592,26 +597,6 @@ video {
   margin-right: 1.5rem;
 }
 
-.mx-26 {
-  margin-left: 1.625rem;
-  margin-right: 1.625rem;
-}
-
-.mx-27 {
-  margin-left: 1.6875rem;
-  margin-right: 1.6875rem;
-}
-
-.mx-8 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.mx-28 {
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
-}
-
 .mx-25 {
   margin-left: 1.5625rem;
   margin-right: 1.5625rem;
@@ -620,6 +605,30 @@ video {
 .my-27 {
   margin-top: 1.6875rem;
   margin-bottom: 1.6875rem;
+}
+
+.mx-23 {
+  margin-left: 1.4375rem;
+  margin-right: 1.4375rem;
+}
+
+.mx-26 {
+  margin-left: 1.625rem;
+  margin-right: 1.625rem;
+}
+
+.mx-28 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
+.mx-22 {
+  margin-left: 1.375rem;
+  margin-right: 1.375rem;
+}
+
+.-mt-5 {
+  margin-top: -0.3125rem;
 }
 
 .mb-26 {
@@ -644,6 +653,10 @@ video {
 
 .mr-auto {
   margin-right: auto;
+}
+
+.mt-100 {
+  margin-top: 6.25rem;
 }
 
 .mt-12 {
@@ -682,26 +695,6 @@ video {
   margin-top: 0.375rem;
 }
 
-.mt-81 {
-  margin-top: 5.0625rem;
-}
-
-.mt-30 {
-  margin-top: 1.875rem;
-}
-
-.mt-27 {
-  margin-top: 1.6875rem;
-}
-
-.-mt-4 {
-  margin-top: -0.25rem;
-}
-
-.-mt-5 {
-  margin-top: -0.3125rem;
-}
-
 .mt-74 {
   margin-top: 4.625rem;
 }
@@ -710,8 +703,20 @@ video {
   margin-top: 0.5rem;
 }
 
-.mb-104 {
-  margin-bottom: 6.5rem;
+.mt-81 {
+  margin-top: 5.0625rem;
+}
+
+.-mt-7 {
+  margin-top: -0.4375rem;
+}
+
+.mt-9 {
+  margin-top: 0.5625rem;
+}
+
+.mb-56 {
+  margin-bottom: 3.5rem;
 }
 
 .flex {
@@ -756,6 +761,10 @@ video {
 
 .max-h-223 {
   max-height: 13.9375rem;
+}
+
+.min-h-170 {
+  min-height: 10.625rem;
 }
 
 .min-h-screen {
@@ -811,6 +820,16 @@ video {
        column-gap: 0.75rem;
 }
 
+.gap-x-16 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.gap-x-17 {
+  -moz-column-gap: 1.0625rem;
+       column-gap: 1.0625rem;
+}
+
 .gap-x-18 {
   -moz-column-gap: 1.125rem;
        column-gap: 1.125rem;
@@ -829,21 +848,6 @@ video {
   row-gap: 3.75rem;
 }
 
-.gap-x-15 {
-  -moz-column-gap: 0.9375rem;
-       column-gap: 0.9375rem;
-}
-
-.gap-x-16 {
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
-}
-
-.gap-x-17 {
-  -moz-column-gap: 1.0625rem;
-       column-gap: 1.0625rem;
-}
-
 .self-end {
   align-self: flex-end;
 }
@@ -856,6 +860,10 @@ video {
   border-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -866,6 +874,11 @@ video {
 
 .border-r-4 {
   border-right-width: 0.25rem;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-b-dark-blue {
@@ -882,9 +895,17 @@ video {
   border-right-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-opacity-25 {
+  --tw-border-opacity: 0.25;
+}
+
 .bg-dark-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(56 59 75 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-very-dark-blue {
@@ -895,11 +916,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-25 {
@@ -990,6 +1006,10 @@ video {
   font-size: 1.25rem;
 }
 
+.text-24 {
+  font-size: 1.5rem;
+}
+
 .text-28 {
   font-size: 1.75rem;
 }
@@ -1000,10 +1020,6 @@ video {
 
 .text-80 {
   font-size: 5rem;
-}
-
-.text-24 {
-  font-size: 1.5rem;
 }
 
 .font-bold {
@@ -1026,6 +1042,10 @@ video {
   line-height: 1.0625rem;
 }
 
+.leading-18 {
+  line-height: 1.125rem;
+}
+
 .leading-19 {
   line-height: 1.1875rem;
 }
@@ -1038,20 +1058,16 @@ video {
   line-height: 1.5625rem;
 }
 
+.leading-28 {
+  line-height: 1.75rem;
+}
+
 .leading-32 {
   line-height: 2rem;
 }
 
 .leading-64 {
   line-height: 4rem;
-}
-
-.leading-18 {
-  line-height: 1.125rem;
-}
-
-.leading-28 {
-  line-height: 1.75rem;
 }
 
 .tracking-\[1\.25px\] {

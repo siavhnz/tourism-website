@@ -26,6 +26,10 @@ export const values = {
     ...createProps(0, 320, 0.0625, "rem"),
   },
 
+  minHeight: {
+    ...createProps(0, 320, 0.0625, "rem"),
+  },
+
   height: {
     ...createProps(0, 320, 0.0625, "rem"),
   },

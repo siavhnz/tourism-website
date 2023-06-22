@@ -12,4 +12,9 @@
     .crew-pagination  .swiper-pagination-bullet-active {
         opacity: 1;
     }
+
+    .technology-pagination  .swiper-pagination-bullet-active {
+        background-color: #fff;
+        color: #0B0D17;
+    }
 }
