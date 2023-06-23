@@ -61,6 +61,8 @@ Users should be able to:
 
 ### Useful resources
 
+- [Background image in tailwindcss using dynamic url](https://stackoverflow.com/a/70810692)
+
 ## Author
 
 - Frontend Mentor - [@siavhnz](https://www.frontendmentor.io/profile/siavhnz)

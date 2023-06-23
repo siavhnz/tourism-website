@@ -5,7 +5,7 @@ import Pattern from "../components/pages/Pattern";
 const Destination = () => {
   return (
     <>
-      <Pattern pattern="bg-mobile-destination-pattern" />
+      <Pattern pattern="bg-mobile-destination-pattern md:bg-tablet-destination-pattern" />
       <Title number="01" title="pick your destination" />
       <div>
         <DestinationSlider />

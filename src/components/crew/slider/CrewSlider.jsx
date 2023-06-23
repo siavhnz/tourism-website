@@ -1,5 +1,5 @@
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -11,7 +11,9 @@ import { data } from "../../../store/crew";
 const CrewSlider = () => {
   return (
     <Swiper
-      modules={[Pagination]}
+      modules={[Pagination, Autoplay]}
+      autoplay={{ delay: 10000, pauseOnMouseEnter: true }}
+      autoHeight={true}
       spaceBetween={50}
       slidesPerView={1}
       pagination={{

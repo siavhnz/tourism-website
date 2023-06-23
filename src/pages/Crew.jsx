@@ -5,7 +5,7 @@ import Title from "../components/pages/Title";
 const Crew = () => {
   return (
     <>
-      <Pattern pattern="bg-mobile-crew-pattern" />
+      <Pattern pattern="bg-mobile-crew-pattern md:bg-tablet-crew-pattern" />
       <Title number="02" title="Meet your crew" />
       <div>
         <CrewSlider />

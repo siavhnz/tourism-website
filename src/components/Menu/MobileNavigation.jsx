@@ -54,7 +54,7 @@ const itemVariants = {
   },
 };
 
-const MobileMenu = ({ items, handleCloseMenu }) => {
+const MobileNavigation = ({ items, handleCloseMenu }) => {
   return (
     <motion.nav
       variants={navVariants}
@@ -105,4 +105,4 @@ const MobileMenu = ({ items, handleCloseMenu }) => {
   );
 };
 
-export default MobileMenu;
+export default MobileNavigation;

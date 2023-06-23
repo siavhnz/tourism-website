@@ -18,19 +18,19 @@ export const values = {
     ...createProps(0, 320, 0.0625, "rem"),
   },
 
-  maxWidth: {
+  height: {
     ...createProps(0, 320, 0.0625, "rem"),
+  },
+
+  maxWidth: {
+    ...createProps(0, 640, 0.0625, "rem"),
   },
 
   maxHeight: {
-    ...createProps(0, 320, 0.0625, "rem"),
+    ...createProps(0, 640, 0.0625, "rem"),
   },
 
   minHeight: {
-    ...createProps(0, 320, 0.0625, "rem"),
-  },
-
-  height: {
     ...createProps(0, 320, 0.0625, "rem"),
   },
 
@@ -39,7 +39,7 @@ export const values = {
   },
 
   lineHeight: {
-    ...createProps(0, 100, 0.0625, "rem"),
+    ...createProps(0, 160, 0.0625, "rem"),
   },
   borderWidth: {
     ...createProps(0, 8, 0.0625, "rem"),
