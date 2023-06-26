@@ -8,7 +8,7 @@ const TechnologyItem = ({ word, desc, pictureLandscape, picturePortrait }) => {
         }}
         className={`bg-no-repreat h-170 bg-[image:var(--landscape-img)] bg-cover md:h-310 xl:ml-auto xl:h-527 xl:w-515 xl:bg-[image:var(--portrait-img)] 2xl:mr-auto`}
       ></div>
-      <div className="mt-100 overflow-x-hidden md:mt-162 xl:-order-1 xl:ml-326 xl:mt-113">
+      <div className="mt-100 md:mt-162 xl:-order-1 xl:ml-326 xl:mt-113">
         <p className="text-center font-barlow-condensed text-14 uppercase leading-17 tracking-[2.35px] text-light-blue md:text-16 md:tracking-[2.7px] xl:text-left">
           The terminology...
         </p>
