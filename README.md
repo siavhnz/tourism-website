@@ -11,8 +11,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [My process](#my-process)
   - [Work time](#work-time)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -43,6 +41,12 @@ Users should be able to:
   - HomePage, Layout, Header, Logo, Menu(Navigation, MobileMenu), Explore
 - Create Destination (mobile)
   - DestinationPage, Slider
+- Create Crew & Technology (mobile)
+  - Crew and Technology pages and sliders
+- Work on tablet design based on `figma` file
+- work on Desktop desing based on `figma` file
+- Add page transition
+- Prepare and publish
 
 ### Work Time
 
@@ -54,10 +58,6 @@ Users should be able to:
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer motion](https//framer.com/motion)
 - [Swiperjs](https://swiperjs.com/react)
-
-### What I learned
-
-### Continued development
 
 ### Useful resources
 

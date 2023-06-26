@@ -42,6 +42,10 @@ export default {
         "very-dark-blue": "#0B0D17",
         "dark-blue": "#383B4B",
       },
+      screens: {
+        "1.5xl": "1440px",
+        "3xl": "1920px",
+      },
     },
   },
   plugins: [],

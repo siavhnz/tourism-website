@@ -20,7 +20,7 @@ const DestinationSlider = () => {
         el: ".destination-pagination",
         renderBullet: function (index, className) {
           return (
-            '<span class="m-2 font-barlow-condensed text-14 uppercase leading-17 tracking-[2.35px] md:text-16 md:leading-19 md:tracking-[2.7px] text-light-blue border-b-3 border-b-transparent pb-8 md:pb-12 transition-all duration-700 ' +
+            '<span class="m-2 font-barlow-condensed text-14 uppercase leading-17 tracking-[2.35px] md:text-16 md:leading-19 md:tracking-[2.7px] text-light-blue border-b-3 border-b-transparent pb-8 md:pb-12 transition-all duration-700 hover:border-white hover:border-opacity-50 cursor-pointer ' +
             className +
             '">' +
             data[index].title +
@@ -36,7 +36,7 @@ const DestinationSlider = () => {
           </SwiperSlide>
         );
       })}
-      <div className="destination-pagination absolute top-56 z-10 flex w-full justify-center gap-x-20 md:top-96 md:mt-28 md:gap-x-30"></div>
+      <div className="destination-pagination absolute top-56 z-10 flex w-full justify-center gap-x-20 md:top-96 md:mt-28 md:gap-x-30 xl:top-10 xl:ml-255"></div>
     </Swiper>
   );
 };

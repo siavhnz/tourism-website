@@ -4,7 +4,7 @@ import Pattern from "../components/pages/Pattern";
 const Home = () => {
   return (
     <>
-      <Pattern pattern="bg-mobile-home-pattern md:bg-tablet-home-pattern" />
+      <Pattern pattern="bg-mobile-home-pattern md:bg-tablet-home-pattern xl:bg-desktop-home-pattern" />
       <Explore />
     </>
   );
