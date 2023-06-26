@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/space-tourism-website-obA3lBlbcQ)
+
+- Live Site: [cloudflare](https://tourism-website.pages.dev/)
 
 ## My process
 
@@ -50,11 +51,12 @@ Users should be able to:
 
 ### Work Time
 
-- [My Clockify Report](https://app.clockify.me/shared/?)
+- [My Clockify Report](https://app.clockify.me/shared/64991d7a380e9e1ab80db78f)
 
 ### Built with
 
 - [React](https:react.dev)
+- [React Router](https://reactrouter.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer motion](https//framer.com/motion)
 - [Swiperjs](https://swiperjs.com/react)
